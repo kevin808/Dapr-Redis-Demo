@@ -1,0 +1,11 @@
+  componentType: bindings.redis
+  version: v1
+  metadata:
+    - name: redisHost
+      value: "kl.redis.cache.windows.net:6380"
+    - name: redisPassword
+      value: "Pass"
+    - name: actorStateStore
+      value: "true"
+    - name: enableTLS
+      value: "true"

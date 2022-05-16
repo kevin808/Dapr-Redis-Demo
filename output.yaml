@@ -1,0 +1,14 @@
+# dapr component name:  bloboutput
+componentType: bindings.azure.blobstorage
+version: v1
+metadata:
+- name: storageAccount
+  value: "klstocanada"
+- name: storageAccessKey
+  value: "Pass"
+- name: container
+  value: "mycontainer"
+- name: decodeBase64
+  value: "true"
+scopes:
+- bindingtest
