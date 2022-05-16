@@ -2,7 +2,7 @@
   version: v1
   metadata:
     - name: redisHost
-      value: "kl.redis.cache.windows.net:6380"
+      value: "your.redis.cache.windows.net:6380"
     - name: redisPassword
       value: "Pass"
     - name: actorStateStore
