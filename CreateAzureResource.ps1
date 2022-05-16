@@ -63,7 +63,7 @@ az containerapp create `
    --name bindingtest `
    --resource-group $RESOURCE_GROUP `
    --environment $CONTAINERAPPS_ENVIRONMENT `
-   --image kevin808/daprbinding-python:latest `
+   --image yourdockerid/daprbinding-python:latest `
    --target-port 6000 `
    --ingress external  `
    --min-replicas 1 `
